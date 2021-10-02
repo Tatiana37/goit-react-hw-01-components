@@ -5,7 +5,7 @@
   margin-top: 45px;
   background-color: rgba(187, 231, 217, 0.89);
   border-radius: 15px;
-  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.308);
   font-family: 'Georgia', 'Times New Roman', 'Times', serif;
   padding-top: 15px;
 }
@@ -23,9 +23,11 @@
   margin-left: auto;
   margin-right: auto;
   border-radius: 50px;
-  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.555);
 }
-
+.avatar:hover {
+  box-shadow: 0px 25px 25px rgba(150, 66, 66, 0.808);
+}
 .name {
   font-weight: 600;
   font-size: 35px;
@@ -48,8 +50,8 @@
   align-items: center;
   padding-top: 20px;
   padding-bottom: 30px;
-  border-radius: 15px;
-  background-color: rgb(218, 231, 231);
+  border-top: 2px solid rgb(49, 15, 15);
+  color: rgb(25, 38, 110);
 }
 
 .statsItem {
@@ -64,4 +66,5 @@
 
 .quantity {
   margin-top: 8px;
+  color: rgb(25, 110, 75);
 }
