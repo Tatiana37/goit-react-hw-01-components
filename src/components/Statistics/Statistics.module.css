@@ -9,7 +9,6 @@
 }
 
 .title {
-  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 45px;
   color: rgb(4, 39, 85);
   padding: 10px 0;
@@ -28,7 +27,7 @@
   background-color: coral;
   padding: 10px;
   border-radius: 5px;
-  width: calc(100% / 3);
+  width: calc(100% / 5);
 }
 .item:not(:last-child) {
   margin-right: 3px;

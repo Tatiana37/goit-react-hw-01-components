@@ -1,0 +1,50 @@
+.friends {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 35px 0;
+}
+
+.list {
+}
+
+.item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(219, 193, 193, 0.87);
+  height: 100px;
+  border-radius: 50px;
+}
+
+.item:hover,
+.item:focus {
+  background-color: rgba(253, 238, 176, 0.39);
+  box-shadow: 0px 25px 25px -7px darkgray;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.status {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  border: 1px solid rgb(66, 31, 7);
+}
+
+.online {
+  background-color: green;
+}
+
+.offline {
+  background-color: red;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 500;
+}
