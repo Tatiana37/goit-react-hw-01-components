@@ -3,7 +3,7 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
-  background-color: rgb(123, 253, 253);
+  background-color: rgba(255, 243, 243, 0.781);
   border-radius: 10px;
   box-shadow: -10px 10px 25px -10px blue;
 }
@@ -24,11 +24,11 @@
 }
 
 .item {
-  background-color: coral;
   padding: 10px;
   border-radius: 5px;
   width: calc(100% / 5);
 }
+
 .item:not(:last-child) {
   margin-right: 3px;
 }
