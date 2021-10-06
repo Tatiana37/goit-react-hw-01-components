@@ -11,7 +11,7 @@ export default function FriendList({ friends }) {
             avatar={avatar}
             name={name}
             isOnline={isOnline}
-            id={id}
+            key={id}
           />
         ))}
       </ul>

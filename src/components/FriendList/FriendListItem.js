@@ -3,7 +3,7 @@ import s from './FriendList.module.css';
 
 export default function FriendListItem({ avatar, name, isOnline, id }) {
   return (
-    <li className={s.item} key={id}>
+    <li key={id} className={s.item}>
       <span className={`${s.status} ${isOnline ? s.green : s.red}`}></span>
       <img className={s.image} src={avatar} alt={name} width="80" />
       <p className={s.name}>{name}</p>
@@ -12,8 +12,12 @@ export default function FriendListItem({ avatar, name, isOnline, id }) {
 }
 
 FriendListItem.propTypes = {
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
-  id: PropTypes.number.isRequired,
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+      avatar: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+      isOnline: PropTypes.bool.isRequired,
+      id: PropTypes.number.isRequired,
+    }),
+  ),
 };
