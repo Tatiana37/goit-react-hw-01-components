@@ -5,9 +5,6 @@
   padding: 35px 0;
 }
 
-.list {
-}
-
 .item {
   display: flex;
   justify-content: space-around;
@@ -36,11 +33,11 @@
   border: 1px solid rgb(66, 31, 7);
 }
 
-.online {
+.green {
   background-color: green;
 }
 
-.offline {
+.red {
   background-color: red;
 }
 
